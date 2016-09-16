@@ -25,6 +25,9 @@ int main (void)
       _delay_ms(300);
 
       for(i=0;i<8;i++){
+	  /* SDI = HIGH
+	   * CLK = Toggle
+	   */
           PORTC = PORTC | 0x3;
       	  _delay_ms(300);
           PORTC = PORTC & ~0x2;
