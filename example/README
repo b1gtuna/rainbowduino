@@ -1,0 +1,7 @@
+
+23 PC0 0x1 SDI - Serial Data Input
+24 PC1 0x2 CLK - Clock Input Data
+25 PC2 0x4 LE - Data Strobe
+26 PC3 0x8 OE - Output Enable
+
+
