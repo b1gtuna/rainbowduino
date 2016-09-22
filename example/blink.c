@@ -30,7 +30,7 @@ int main (void)
 
       /* set PORTC LE (inactive) low*/
       PORTC &= ~(1 << LE);;
-      _delay_ms(50);
+      _delay_ms(10);
 
       for(i=0;i<24;i++){
 	  /* 
@@ -51,12 +51,11 @@ int main (void)
       /* set PORTC LE (active) high*/
       PORTC |= (1 << LE);
 
-      _delay_ms(50);
+      _delay_ms(2000);
 
       /* set PORTC OE (active) low */
-      PORTC &= ~(1 << OE);
-
-      _delay_ms(50);
+      // PORTC &= ~(1 << OE);
+      //_delay_ms(50);
   }
 
   return 1;
