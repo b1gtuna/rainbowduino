@@ -6,3 +6,8 @@
 
 9/16/2016
 	* Add Makefile
+
+
+9/22/2016
+	* Add Detailed Rainbow Cube Wiki
+	* Working Code
